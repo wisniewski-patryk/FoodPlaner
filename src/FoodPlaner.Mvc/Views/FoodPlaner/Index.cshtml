@@ -1,0 +1,11 @@
+@model MealsModel
+
+@{
+    ViewData["Title"] = "Food Planer";
+}
+
+@foreach(var meal in @Model.Meals)
+{
+    <div>@meal.Name</div>
+}
+

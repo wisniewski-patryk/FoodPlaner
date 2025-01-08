@@ -1,0 +1,354 @@
+{
+	"meals": [
+		{
+			"mealId": 272,
+			"name": "Łosoś pieczony/smażony z warzywami",
+			"status": "public",
+			"cover": {
+				"fullPath": "files/meals/cover/l945h8fdl945h8fdaf44faf273",
+				"thumbFullPath": "files/meals/cover/l945h8fdl945h8fdaf44faf273-thumb",
+				"url": "https://firebasestorage.googleapis.com/v0/b/tz-app-prod.appspot.com/o/files%2Fmeals%2Fcover%2Fl945h8fdl945h8fdaf44faf273?alt=media&token=b0b612b2-2a94-4828-9a3b-d343f0721ea5",
+				"thumbUrl": "https://firebasestorage.googleapis.com/v0/b/tz-app-prod.appspot.com/o/files%2Fmeals%2Fcover%2Fl945h8fdl945h8fdaf44faf273-thumb?alt=media&token=a3c2be01-f1f8-464e-a78e-66e2b62af93e"
+			},
+			"type": "bt",
+			"taste": "salty",
+			"categories": [
+				"GoodForMealPrep",
+				"Dinners",
+				"BarbecueDishes"
+			],
+			"equipment": [
+				"Stove",
+				"Oven"
+			],
+			"prepTimeType": "minutes",
+			"prepTimeValue": 30,
+			"products": [
+				{
+					"id": 151,
+					"name": "Łosoś świeży",
+					"status": "public",
+					"type": "protein",
+					"categories": [
+						"fish"
+					],
+					"protein": 20,
+					"carbs": 0,
+					"fat": 13.600000381469727,
+					"kcal": 201,
+					"measure": "grams",
+					"gramsPerMeasure": null,
+					"additionalData": {
+						"editedAt": [
+							{
+								"date": "2022-10-11T08:50:24.985Z",
+								"userId": 3185
+							}
+						]
+					},
+					"filterBy": "Łosoś świeży (ID: 151)",
+					"cloneId": "cloneId-151-2xdq",
+					"amount": 120,
+					"calculatedMacro": {
+						"protein": 24,
+						"carbs": 0,
+						"fat": 16.3,
+						"kcal": 241
+					}
+				},
+				{
+					"id": 250,
+					"name": "Warzywa (dobrane wg listy zamienników)",
+					"status": "public",
+					"type": "carbs",
+					"categories": [
+						"vegetables",
+						"simplecarbohydrates"
+					],
+					"protein": 1,
+					"carbs": 2,
+					"fat": 0,
+					"kcal": 15,
+					"measure": "grams",
+					"gramsPerMeasure": null,
+					"additionalData": {},
+					"filterBy": "Warzywa (dobrane wg listy zamienników) (ID: 250)",
+					"cloneId": "cloneId-250-402c",
+					"amount": 200,
+					"calculatedMacro": {
+						"protein": 2,
+						"carbs": 4,
+						"fat": 0,
+						"kcal": 30
+					}
+				},
+				{
+					"id": 3,
+					"name": "Oliwa z oliwek",
+					"status": "public",
+					"type": "fat",
+					"categories": [
+						"oils"
+					],
+					"protein": 0,
+					"carbs": 0,
+					"fat": 100,
+					"kcal": 900,
+					"measure": "grams",
+					"gramsPerMeasure": null,
+					"additionalData": {
+						"editedAt": [
+							{
+								"date": "2022-09-14T13:18:48.553Z",
+								"userId": 85
+							},
+							{
+								"date": "2022-09-15T07:03:17.690Z",
+								"userId": 48
+							}
+						]
+					},
+					"filterBy": "Oliwa z oliwek (ID: 3)",
+					"cloneId": "cloneId-3-3gir",
+					"amount": 10,
+					"calculatedMacro": {
+						"protein": 0,
+						"carbs": 0,
+						"fat": 10,
+						"kcal": 90
+					}
+				},
+				{
+					"id": 1040,
+					"name": "Koperek",
+					"status": "public",
+					"type": "indeterminate",
+					"categories": [
+						"spices"
+					],
+					"protein": 0,
+					"carbs": 0,
+					"fat": 0,
+					"kcal": 0,
+					"measure": "atTheDiscretion",
+					"gramsPerMeasure": null,
+					"additionalData": {
+						"editedAt": [
+							{
+								"date": "2022-10-05T11:01:43.949Z",
+								"userId": 3185
+							}
+						]
+					},
+					"filterBy": "Koperek (ID: 1040)",
+					"cloneId": "cloneId-1040-362b",
+					"amount": null,
+					"calculatedMacro": {
+						"protein": 0,
+						"carbs": 0,
+						"fat": 0,
+						"kcal": 0
+					}
+				},
+				{
+					"id": 1103,
+					"name": "Zielona świeża pietruszka",
+					"status": "public",
+					"type": "indeterminate",
+					"categories": [
+						"spices"
+					],
+					"protein": 0,
+					"carbs": 0,
+					"fat": 0,
+					"kcal": 0,
+					"measure": "atTheDiscretion",
+					"gramsPerMeasure": null,
+					"additionalData": {
+						"editedAt": [
+							{
+								"date": "2022-10-04T14:04:18.892Z",
+								"userId": 3185
+							}
+						]
+					},
+					"filterBy": "Zielona świeża pietruszka (ID: 1103)",
+					"cloneId": "cloneId-1103-2j9t",
+					"amount": null,
+					"calculatedMacro": {
+						"protein": 0,
+						"carbs": 0,
+						"fat": 0,
+						"kcal": 0
+					}
+				},
+				{
+					"id": 1089,
+					"name": "Sok z cytryny/limonki",
+					"status": "public",
+					"type": "indeterminate",
+					"categories": [
+						"spices"
+					],
+					"protein": 0,
+					"carbs": 0,
+					"fat": 0,
+					"kcal": 0,
+					"measure": "grams",
+					"gramsPerMeasure": null,
+					"additionalData": {},
+					"filterBy": "Sok z cytryny/limonki (ID: 1089)",
+					"cloneId": "cloneId-1089-2cx7",
+					"amount": 2,
+					"calculatedMacro": {
+						"protein": 0,
+						"carbs": 0,
+						"fat": 0,
+						"kcal": 0
+					}
+				},
+				{
+					"id": 338,
+					"name": "Czosnek",
+					"status": "public",
+					"type": "indeterminate",
+					"categories": [
+						"spices",
+						"vegetables"
+					],
+					"protein": 0,
+					"carbs": 0,
+					"fat": 0,
+					"kcal": 0,
+					"measure": "clove",
+					"gramsPerMeasure": 2,
+					"additionalData": {},
+					"filterBy": "Czosnek (ID: 338)",
+					"cloneId": "cloneId-338-43dz",
+					"amount": 1,
+					"calculatedMacro": {
+						"protein": 0,
+						"carbs": 0,
+						"fat": 0,
+						"kcal": 0
+					}
+				},
+				{
+					"id": 1036,
+					"name": "Sól",
+					"status": "public",
+					"type": "indeterminate",
+					"categories": [
+						"spices"
+					],
+					"protein": 0,
+					"carbs": 0,
+					"fat": 0,
+					"kcal": 0,
+					"measure": "pinch",
+					"gramsPerMeasure": 0,
+					"additionalData": {
+						"editedAt": [
+							{
+								"date": "2022-09-09T15:16:59.426Z",
+								"userId": 48
+							},
+							{
+								"date": "2022-09-09T15:20:41.678Z",
+								"userId": 48
+							},
+							{
+								"date": "2022-09-09T15:21:26.449Z",
+								"userId": 48
+							},
+							{
+								"date": "2022-09-09T15:21:34.305Z",
+								"userId": 48
+							}
+						]
+					},
+					"filterBy": "Sól (ID: 1036)",
+					"cloneId": "cloneId-1036-491w",
+					"amount": null,
+					"calculatedMacro": {
+						"protein": 0,
+						"carbs": 0,
+						"fat": 0,
+						"kcal": 0
+					}
+				},
+				{
+					"id": 1101,
+					"name": "Pieprz",
+					"status": "public",
+					"type": "indeterminate",
+					"categories": [
+						"spices"
+					],
+					"protein": 0,
+					"carbs": 0,
+					"fat": 0,
+					"kcal": 0,
+					"measure": "pinch",
+					"gramsPerMeasure": 1,
+					"additionalData": {},
+					"filterBy": "Pieprz (ID: 1101)",
+					"cloneId": "cloneId-1101-2hut",
+					"amount": null,
+					"calculatedMacro": {
+						"protein": 0,
+						"carbs": 0,
+						"fat": 0,
+						"kcal": 0
+					}
+				}
+			],
+			"recipe": [
+				"Łososia dopraw solą i pieprzem. Skrop oliwą, sokiem z cytryny i posyp koperkiem/pietruszką.",
+				"Ząbek czosnku posiekaj lub przyciśnij przez praskę i natrzyj nim łososia.",
+				"Łososia usmaż lub upiecz w piekarniku.",
+				"Gotowego łososia podawaj z warzywami."
+			],
+			"tips": [
+				"Do łososia idealnie pasują gotowane brokuły lub szparagi.",
+				"Przygotuj łososia z grilla."
+			],
+			"defaultProtein": 26,
+			"defaultCarbs": 4,
+			"defaultFat": 26.3,
+			"defaultKcal": 361,
+			"productsIds": [
+				151,
+				250,
+				3,
+				1040,
+				1103,
+				1089,
+				338,
+				1036,
+				1101
+			],
+			"productsCategories": [
+				"fish",
+				"vegetables",
+				"simplecarbohydrates",
+				"oils",
+				"spices"
+			],
+			"createdAt": "2022-10-11T14:01:57.000Z",
+			"userId": 3184,
+			"additionalData": {
+				"editedAt": [
+					{
+						"date": "2022-10-11T12:20:37.079Z",
+						"userId": 85
+					},
+					{
+						"date": "2023-04-21T14:29:19.660Z",
+						"userId": 85
+					}
+				]
+			}
+		}
+	]
+}

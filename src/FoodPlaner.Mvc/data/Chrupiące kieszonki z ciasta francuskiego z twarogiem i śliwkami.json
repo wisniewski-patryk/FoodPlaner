@@ -1,0 +1,315 @@
+{
+	"meals": [
+		{
+			"mealId": 980,
+			"name": "Chrupiące kieszonki z ciasta francuskiego z twarogiem i śliwkami",
+			"status": "public",
+			"cover": {
+				"fullPath": "files/meals/cover/lph202sclph202scfdf8883988",
+				"thumbFullPath": "files/meals/cover/lph202sclph202scfdf8883988-thumb",
+				"url": "https://firebasestorage.googleapis.com/v0/b/tz-app-prod.appspot.com/o/files%2Fmeals%2Fcover%2Flph202sclph202scfdf8883988?alt=media&token=e762785b-d460-4308-b100-cb1b5f7e96ec",
+				"thumbUrl": "https://firebasestorage.googleapis.com/v0/b/tz-app-prod.appspot.com/o/files%2Fmeals%2Fcover%2Flph202sclph202scfdf8883988-thumb?alt=media&token=a4bc913c-3d99-4737-9259-81e795c1173e"
+			},
+			"type": "btw",
+			"taste": "sweet",
+			"categories": [
+				"GoodForMealPrep",
+				"StayFreshLongTime",
+				"TzFitDesserts",
+				"FitBakedCakes",
+				"HomePartyDishes"
+			],
+			"equipment": [
+				"Blender",
+				"Oven"
+			],
+			"prepTimeType": "minutes",
+			"prepTimeValue": 40,
+			"products": [
+				{
+					"id": 861,
+					"name": "Ciasto francuskie light Lidl",
+					"status": "public",
+					"type": "carbs",
+					"categories": [
+						"recreational",
+						"complexcarbohydrates"
+					],
+					"protein": 6.5,
+					"carbs": 40.7,
+					"fat": 16,
+					"kcal": 354,
+					"measure": "grams",
+					"gramsPerMeasure": null,
+					"additionalData": {
+						"hideOnSubstitutesList": false
+					},
+					"filterBy": "Ciasto francuskie light Lidl (ID: 861)",
+					"cloneId": "cloneId-861-325f",
+					"amount": 70,
+					"calculatedMacro": {
+						"protein": 4.6,
+						"carbs": 28.5,
+						"fat": 11.2,
+						"kcal": 248
+					}
+				},
+				{
+					"id": 51,
+					"name": "Ser twarogowy chudy",
+					"status": "public",
+					"type": "protein",
+					"categories": [
+						"lactose",
+						"dairy"
+					],
+					"protein": 18,
+					"carbs": 3.5,
+					"fat": 0,
+					"kcal": 86,
+					"measure": "grams",
+					"gramsPerMeasure": null,
+					"additionalData": {},
+					"filterBy": "Ser twarogowy chudy (ID: 51)",
+					"cloneId": "cloneId-51-2cad",
+					"amount": 100,
+					"calculatedMacro": {
+						"protein": 18,
+						"carbs": 3.5,
+						"fat": 0,
+						"kcal": 86
+					}
+				},
+				{
+					"id": 1045,
+					"name": "Substancja słodząca",
+					"status": "public",
+					"type": "indeterminate",
+					"categories": [
+						"spices"
+					],
+					"protein": 0,
+					"carbs": 0,
+					"fat": 0,
+					"kcal": 0,
+					"measure": "atTheDiscretion",
+					"gramsPerMeasure": 1,
+					"additionalData": {
+						"editedAt": [
+							{
+								"date": "2022-09-29T13:04:15.957Z",
+								"userId": 2767
+							},
+							{
+								"date": "2022-09-29T13:27:20.999Z",
+								"userId": 2767
+							},
+							{
+								"date": "2022-10-04T08:20:40.121Z",
+								"userId": 3185
+							},
+							{
+								"date": "2022-10-04T08:25:33.863Z",
+								"userId": 3185
+							}
+						]
+					},
+					"filterBy": "Substancja słodząca (ID: 1045)",
+					"cloneId": "cloneId-1045-34im",
+					"amount": null,
+					"calculatedMacro": {
+						"protein": 0,
+						"carbs": 0,
+						"fat": 0,
+						"kcal": 0
+					}
+				},
+				{
+					"id": 313,
+					"name": "Śliwki",
+					"status": "public",
+					"type": "carbs",
+					"categories": [
+						"fruits"
+					],
+					"protein": 0.6,
+					"carbs": 10.1,
+					"fat": 0.2,
+					"kcal": 45,
+					"measure": "grams",
+					"gramsPerMeasure": null,
+					"additionalData": {},
+					"filterBy": "Śliwki (ID: 313)",
+					"cloneId": "cloneId-313-2upm",
+					"amount": 100,
+					"calculatedMacro": {
+						"protein": 0.6,
+						"carbs": 10.1,
+						"fat": 0.2,
+						"kcal": 45
+					}
+				},
+				{
+					"id": 380,
+					"name": "Cynamon",
+					"status": "public",
+					"type": "indeterminate",
+					"categories": [
+						"spices"
+					],
+					"protein": 0,
+					"carbs": 0,
+					"fat": 0,
+					"kcal": 0,
+					"measure": "pinch",
+					"gramsPerMeasure": 1,
+					"additionalData": {
+						"editedAt": [
+							{
+								"date": "2022-09-29T13:16:43.636Z",
+								"userId": 2767
+							}
+						]
+					},
+					"filterBy": "Cynamon (ID: 380)",
+					"cloneId": "cloneId-380-3j5m",
+					"amount": null,
+					"calculatedMacro": {
+						"protein": 0,
+						"carbs": 0,
+						"fat": 0,
+						"kcal": 0
+					}
+				},
+				{
+					"id": 55,
+					"name": "Białka jaj",
+					"status": "public",
+					"type": "protein",
+					"categories": [
+						"eggs"
+					],
+					"protein": 10.9,
+					"carbs": 0,
+					"fat": 0,
+					"kcal": 52,
+					"measure": "grams",
+					"gramsPerMeasure": null,
+					"additionalData": {
+						"hideOnSubstitutesList": false,
+						"minValueOnSubstitutesList": 35,
+						"editedAt": [
+							{
+								"date": "2022-11-15T13:02:36.726Z",
+								"userId": 48
+							},
+							{
+								"date": "2022-11-15T13:32:42.758Z",
+								"userId": 48
+							},
+							{
+								"date": "2022-11-15T13:32:52.323Z",
+								"userId": 48
+							},
+							{
+								"date": "2022-11-15T13:36:41.662Z",
+								"userId": 48
+							},
+							{
+								"date": "2022-11-15T13:36:57.698Z",
+								"userId": 48
+							}
+						],
+						"maxValueOnSubstitutesList": null
+					},
+					"filterBy": "Białka jaj (ID: 55)",
+					"cloneId": "cloneId-55-49ex",
+					"amount": 35,
+					"calculatedMacro": {
+						"protein": 3.8,
+						"carbs": 0,
+						"fat": 0,
+						"kcal": 18
+					}
+				},
+				{
+					"id": 1041,
+					"name": "Erytrytol",
+					"status": "public",
+					"type": "indeterminate",
+					"categories": [
+						"spices"
+					],
+					"protein": 0,
+					"carbs": 0,
+					"fat": 0,
+					"kcal": 0,
+					"measure": "pinch",
+					"gramsPerMeasure": 1,
+					"additionalData": {
+						"editedAt": [
+							{
+								"date": "2022-09-29T13:04:06.481Z",
+								"userId": 2767
+							}
+						]
+					},
+					"filterBy": "Erytrytol (ID: 1041)",
+					"cloneId": "cloneId-1041-3e9a",
+					"amount": null,
+					"calculatedMacro": {
+						"protein": 0,
+						"carbs": 0,
+						"fat": 0,
+						"kcal": 0
+					}
+				}
+			],
+			"recipe": [
+				"Ciasto francuskie podziel na prostokąty. ",
+				"Piekarnik nagrzej do 200 stopni. ",
+				"Twaróg zblenduj na gładką masę ze słodzikiem. ",
+				"Śliwki umyj, usuń pestki i pokrój na ćwiartki.",
+				"Na połowę wyciętych z ciasta prostokątów (resztę pozostaw do przykrycia i zlepienia kieszonek) przełóż twarożek i śliwki. Posyp cynamonem i erytrytolem. ",
+				"Na prostokąty z dodatkami przełóż drugą część francuskiego ciasta i zlep krawędzie za pomocą widelca. ",
+				"Kieszonki posmaruj białkiem jaja i posyp erytrytolem. Wstaw do piekarnika na około 15-20 minut, aż się zarumienią. ",
+				"Ciastka ostudź przy otwartych drzwiach piekarnika."
+			],
+			"tips": [
+				"Zamień śliwki na ulubione owoce. "
+			],
+			"defaultProtein": 27,
+			"defaultCarbs": 42.1,
+			"defaultFat": 11.4,
+			"defaultKcal": 397,
+			"productsIds": [
+				861,
+				51,
+				1045,
+				313,
+				380,
+				55,
+				1041
+			],
+			"productsCategories": [
+				"recreational",
+				"complexcarbohydrates",
+				"lactose",
+				"dairy",
+				"spices",
+				"fruits",
+				"eggs"
+			],
+			"createdAt": "2023-11-27T16:20:10.000Z",
+			"userId": 85,
+			"additionalData": {
+				"editedAt": [
+					{
+						"date": "2023-11-27T15:20:10.487Z",
+						"userId": 85
+					}
+				]
+			}
+		}
+	]
+}

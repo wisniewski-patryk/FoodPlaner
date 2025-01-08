@@ -1,0 +1,356 @@
+{
+	"meals": [
+		{
+			"mealId": 786,
+			"name": "Amerykańskie Pancakes",
+			"status": "public",
+			"cover": {
+				"fullPath": "files/meals/cover/lgup0wt9lgup0wt97d87bb1076",
+				"thumbFullPath": "files/meals/cover/lgup0wt9lgup0wt97d87bb1076-thumb",
+				"url": "https://firebasestorage.googleapis.com/v0/b/tz-app-prod.appspot.com/o/files%2Fmeals%2Fcover%2Flgup0wt9lgup0wt97d87bb1076?alt=media&token=17acd6fe-1ce3-4948-809a-d2bab24b7d05",
+				"thumbUrl": "https://firebasestorage.googleapis.com/v0/b/tz-app-prod.appspot.com/o/files%2Fmeals%2Fcover%2Flgup0wt9lgup0wt97d87bb1076-thumb?alt=media&token=51c0ef5c-9e19-4f35-8bf1-19bf509f88d7"
+			},
+			"type": "btw",
+			"taste": "sweet",
+			"categories": [
+				"GoodForMealPrep",
+				"StayFreshLongTime",
+				"TzFitDesserts",
+				"Omlettes",
+				"Breakfasts"
+			],
+			"equipment": [
+				"Stove"
+			],
+			"prepTimeType": "minutes",
+			"prepTimeValue": 30,
+			"products": [
+				{
+					"id": 54,
+					"name": "Jaja kurze całe",
+					"status": "public",
+					"type": "protein",
+					"categories": [
+						"eggs",
+						"dairy"
+					],
+					"protein": 12.5,
+					"carbs": 0.6,
+					"fat": 9.7,
+					"kcal": 144,
+					"measure": "pieces",
+					"gramsPerMeasure": 55,
+					"additionalData": {},
+					"filterBy": "Jaja kurze całe (ID: 54)",
+					"cloneId": "cloneId-54-31i7",
+					"amount": 1,
+					"calculatedMacro": {
+						"protein": 6.9,
+						"carbs": 0.3,
+						"fat": 5.3,
+						"kcal": 79
+					}
+				},
+				{
+					"id": 351,
+					"name": "Odżywka WPC",
+					"status": "public",
+					"type": "protein",
+					"categories": [
+						"wheyprotein"
+					],
+					"protein": 78,
+					"carbs": 4.8,
+					"fat": 5.7,
+					"kcal": 383,
+					"measure": "grams",
+					"gramsPerMeasure": null,
+					"additionalData": {},
+					"filterBy": "Odżywka WPC (ID: 351)",
+					"cloneId": "cloneId-351-3y8r",
+					"amount": 20,
+					"calculatedMacro": {
+						"protein": 15.6,
+						"carbs": 1,
+						"fat": 1.1,
+						"kcal": 77
+					}
+				},
+				{
+					"id": 599,
+					"name": "Maślanka naturalna ",
+					"status": "public",
+					"type": "carbs",
+					"categories": [
+						"dairy",
+						"lactose"
+					],
+					"protein": 3,
+					"carbs": 5,
+					"fat": 2,
+					"kcal": 45,
+					"measure": "grams",
+					"gramsPerMeasure": null,
+					"additionalData": {},
+					"filterBy": "Maślanka naturalna  (ID: 599)",
+					"cloneId": "cloneId-599-3naf",
+					"amount": 50,
+					"calculatedMacro": {
+						"protein": 1.5,
+						"carbs": 2.5,
+						"fat": 1,
+						"kcal": 23
+					}
+				},
+				{
+					"id": 217,
+					"name": "Mąka pszenna",
+					"status": "public",
+					"type": "carbs",
+					"categories": [
+						"wheat",
+						"gluten",
+						"complexcarbohydrates"
+					],
+					"protein": 10,
+					"carbs": 71,
+					"fat": 1,
+					"kcal": 341,
+					"measure": "grams",
+					"gramsPerMeasure": null,
+					"additionalData": {},
+					"filterBy": "Mąka pszenna (ID: 217)",
+					"cloneId": "cloneId-217-2ziy",
+					"amount": 50,
+					"calculatedMacro": {
+						"protein": 5,
+						"carbs": 35.5,
+						"fat": 0.5,
+						"kcal": 171
+					}
+				},
+				{
+					"id": 44,
+					"name": "Masło",
+					"status": "public",
+					"type": "fat",
+					"categories": [
+						"dairy",
+						"lactose"
+					],
+					"protein": 0,
+					"carbs": 0,
+					"fat": 99.5,
+					"kcal": 880,
+					"measure": "grams",
+					"gramsPerMeasure": null,
+					"additionalData": {},
+					"filterBy": "Masło (ID: 44)",
+					"cloneId": "cloneId-44-4615",
+					"amount": 5,
+					"calculatedMacro": {
+						"protein": 0,
+						"carbs": 0,
+						"fat": 5,
+						"kcal": 44
+					}
+				},
+				{
+					"id": 1042,
+					"name": "Soda oczyszczona",
+					"status": "public",
+					"type": "indeterminate",
+					"categories": [
+						"spices"
+					],
+					"protein": 0,
+					"carbs": 0,
+					"fat": 0,
+					"kcal": 0,
+					"measure": "grams",
+					"gramsPerMeasure": null,
+					"additionalData": {},
+					"filterBy": "Soda oczyszczona (ID: 1042)",
+					"cloneId": "cloneId-1042-2j9g",
+					"amount": 2,
+					"calculatedMacro": {
+						"protein": 0,
+						"carbs": 0,
+						"fat": 0,
+						"kcal": 0
+					}
+				},
+				{
+					"id": 537,
+					"name": "Proszek do pieczenia",
+					"status": "public",
+					"type": "indeterminate",
+					"categories": [
+						"spices"
+					],
+					"protein": 0,
+					"carbs": 0,
+					"fat": 0,
+					"kcal": 0,
+					"measure": "grams",
+					"gramsPerMeasure": null,
+					"additionalData": {},
+					"filterBy": "Proszek do pieczenia (ID: 537)",
+					"cloneId": "cloneId-537-3fsx",
+					"amount": 2,
+					"calculatedMacro": {
+						"protein": 0,
+						"carbs": 0,
+						"fat": 0,
+						"kcal": 0
+					}
+				},
+				{
+					"id": 1045,
+					"name": "Substancja słodząca",
+					"status": "public",
+					"type": "indeterminate",
+					"categories": [
+						"spices"
+					],
+					"protein": 0,
+					"carbs": 0,
+					"fat": 0,
+					"kcal": 0,
+					"measure": "atTheDiscretion",
+					"gramsPerMeasure": 1,
+					"additionalData": {
+						"editedAt": [
+							{
+								"date": "2022-09-29T13:04:15.957Z",
+								"userId": 2767
+							},
+							{
+								"date": "2022-09-29T13:27:20.999Z",
+								"userId": 2767
+							},
+							{
+								"date": "2022-10-04T08:20:40.121Z",
+								"userId": 3185
+							},
+							{
+								"date": "2022-10-04T08:25:33.863Z",
+								"userId": 3185
+							}
+						]
+					},
+					"filterBy": "Substancja słodząca (ID: 1045)",
+					"cloneId": "cloneId-1045-2763",
+					"amount": null,
+					"calculatedMacro": {
+						"protein": 0,
+						"carbs": 0,
+						"fat": 0,
+						"kcal": 0
+					}
+				},
+				{
+					"id": 1043,
+					"name": "Aromat waniliowy ",
+					"status": "public",
+					"type": "indeterminate",
+					"categories": [
+						"spices"
+					],
+					"protein": 0,
+					"carbs": 0,
+					"fat": 0,
+					"kcal": 0,
+					"measure": "grams",
+					"gramsPerMeasure": null,
+					"additionalData": {},
+					"filterBy": "Aromat waniliowy  (ID: 1043)",
+					"cloneId": "cloneId-1043-31ih",
+					"amount": 2,
+					"calculatedMacro": {
+						"protein": 0,
+						"carbs": 0,
+						"fat": 0,
+						"kcal": 0
+					}
+				},
+				{
+					"id": 295,
+					"name": "Borówki",
+					"status": "public",
+					"type": "carbs",
+					"categories": [
+						"simplecarbohydrates",
+						"fruits"
+					],
+					"protein": 0.8,
+					"carbs": 14,
+					"fat": 0.6,
+					"kcal": 57,
+					"measure": "grams",
+					"gramsPerMeasure": null,
+					"additionalData": {},
+					"filterBy": "Borówki (ID: 295)",
+					"cloneId": "cloneId-295-408v",
+					"amount": 30,
+					"calculatedMacro": {
+						"protein": 0.2,
+						"carbs": 4.2,
+						"fat": 0.2,
+						"kcal": 17
+					}
+				}
+			],
+			"recipe": [
+				"Białko oddziel od żółtka i ubij na sztywną pianę. ",
+				"Żółtko wymieszaj z odżywką WPC, maślanką, proszkiem do pieczenia, sodą oczyszczoną, aromatem waniliowym i mąką pszenną na gładką masę. ",
+				"Masę na pancakes wymieszaj delikatnie za pomocą szpatułki z białkami. ",
+				"Pancakes smaż na maśle na rozgrzanej patelni z obu stron. ",
+				"Pancakes podawaj z borówkami."
+			],
+			"tips": [
+				"Użyj bezkalorycznego syropu klonowego.",
+				"Dodaj borówki do masy na pancakes i usmaż je.",
+				"WPC wymieszaj z wodą i użyj jako polewy na pancakes. "
+			],
+			"defaultProtein": 29.2,
+			"defaultCarbs": 43.5,
+			"defaultFat": 13.1,
+			"defaultKcal": 411,
+			"productsIds": [
+				54,
+				351,
+				599,
+				217,
+				44,
+				1042,
+				537,
+				1045,
+				1043,
+				295
+			],
+			"productsCategories": [
+				"eggs",
+				"dairy",
+				"wheyprotein",
+				"lactose",
+				"wheat",
+				"gluten",
+				"complexcarbohydrates",
+				"spices",
+				"simplecarbohydrates",
+				"fruits"
+			],
+			"createdAt": "2023-04-24T12:27:39.000Z",
+			"userId": 85,
+			"additionalData": {
+				"editedAt": [
+					{
+						"date": "2023-04-24T10:27:39.891Z",
+						"userId": 85
+					}
+				]
+			}
+		}
+	]
+}

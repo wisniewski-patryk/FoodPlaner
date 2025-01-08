@@ -1,0 +1,349 @@
+{
+	"meals": [
+		{
+			"mealId": 381,
+			"name": "Sernik Snikers",
+			"status": "public",
+			"cover": {
+				"fullPath": "files/meals/cover/l99yopqjl99yopqj8c4c2da41e",
+				"thumbFullPath": "files/meals/cover/l99yopqjl99yopqj8c4c2da41e-thumb",
+				"url": "https://firebasestorage.googleapis.com/v0/b/tz-app-prod.appspot.com/o/files%2Fmeals%2Fcover%2Fl99yopqjl99yopqj8c4c2da41e?alt=media&token=3a611e43-d713-4ad8-b41b-968f1ac594aa",
+				"thumbUrl": "https://firebasestorage.googleapis.com/v0/b/tz-app-prod.appspot.com/o/files%2Fmeals%2Fcover%2Fl99yopqjl99yopqj8c4c2da41e-thumb?alt=media&token=f5efb6ec-43d5-4c7a-a667-23f81fc8ce4b"
+			},
+			"type": "bt",
+			"taste": "sweet",
+			"categories": [
+				"TzFitDesserts",
+				"GoodForMealPrep",
+				"ToEatCold"
+			],
+			"equipment": [
+				"Blender",
+				"Fridge",
+				"Microwave"
+			],
+			"prepTimeType": "minutes",
+			"prepTimeValue": 20,
+			"products": [
+				{
+					"id": 51,
+					"name": "Ser twarogowy chudy",
+					"status": "public",
+					"type": "protein",
+					"categories": [
+						"lactose",
+						"dairy"
+					],
+					"protein": 18,
+					"carbs": 4,
+					"fat": 0,
+					"kcal": 86,
+					"measure": "grams",
+					"gramsPerMeasure": null,
+					"additionalData": {},
+					"filterBy": "Ser twarogowy chudy (ID: 51)",
+					"cloneId": "cloneId-51-3mcw",
+					"amount": 100,
+					"calculatedMacro": {
+						"protein": 18,
+						"carbs": 4,
+						"fat": 0,
+						"kcal": 86
+					}
+				},
+				{
+					"id": 39,
+					"name": "Żelatyna",
+					"status": "public",
+					"type": "protein",
+					"categories": [
+						"recreational",
+						"spices"
+					],
+					"protein": 84,
+					"carbs": 1,
+					"fat": 0,
+					"kcal": 343,
+					"measure": "grams",
+					"gramsPerMeasure": null,
+					"additionalData": {},
+					"filterBy": "Żelatyna (ID: 39)",
+					"cloneId": "cloneId-39-3ob0",
+					"amount": 2,
+					"calculatedMacro": {
+						"protein": 1.7,
+						"carbs": 0,
+						"fat": 0,
+						"kcal": 7
+					}
+				},
+				{
+					"id": 17,
+					"name": "Masło orzechowe",
+					"status": "public",
+					"type": "fat",
+					"categories": [
+						"nutbutters",
+						"nuts"
+					],
+					"protein": 25.100000381469727,
+					"carbs": 19.600000381469727,
+					"fat": 50,
+					"kcal": 588,
+					"measure": "grams",
+					"gramsPerMeasure": null,
+					"additionalData": {},
+					"filterBy": "Masło orzechowe (ID: 17)",
+					"cloneId": "cloneId-17-3rtl",
+					"amount": 15,
+					"calculatedMacro": {
+						"protein": 3.8,
+						"carbs": 2.9,
+						"fat": 7.5,
+						"kcal": 88
+					}
+				},
+				{
+					"id": 554,
+					"name": "Śmietanka 12%",
+					"status": "public",
+					"type": "fat",
+					"categories": [
+						"lactose",
+						"dairy"
+					],
+					"protein": 3,
+					"carbs": 4.199999809265137,
+					"fat": 12,
+					"kcal": 137,
+					"measure": "grams",
+					"gramsPerMeasure": null,
+					"additionalData": {},
+					"filterBy": "Śmietanka 12% (ID: 554)",
+					"cloneId": "cloneId-554-2k95",
+					"amount": 50,
+					"calculatedMacro": {
+						"protein": 1.5,
+						"carbs": 2.1,
+						"fat": 6,
+						"kcal": 69
+					}
+				},
+				{
+					"id": 36,
+					"name": "Gorzka czekolada 70%",
+					"status": "public",
+					"type": "indeterminate",
+					"categories": [
+						"complexcarbohydrates",
+						"recreational"
+					],
+					"protein": 10,
+					"carbs": 34,
+					"fat": 39,
+					"kcal": 551,
+					"measure": "grams",
+					"gramsPerMeasure": null,
+					"additionalData": {},
+					"filterBy": "Gorzka czekolada 70% (ID: 36)",
+					"cloneId": "cloneId-36-4438",
+					"amount": 15,
+					"calculatedMacro": {
+						"protein": 1.5,
+						"carbs": 5.1,
+						"fat": 5.9,
+						"kcal": 83
+					}
+				},
+				{
+					"id": 18,
+					"name": "Orzechy ziemne",
+					"status": "public",
+					"type": "fat",
+					"categories": [
+						"nuts"
+					],
+					"protein": 26,
+					"carbs": 19,
+					"fat": 46,
+					"kcal": 553,
+					"measure": "grams",
+					"gramsPerMeasure": null,
+					"additionalData": {},
+					"filterBy": "Orzechy ziemne (ID: 18)",
+					"cloneId": "cloneId-18-2744",
+					"amount": 10,
+					"calculatedMacro": {
+						"protein": 2.6,
+						"carbs": 1.9,
+						"fat": 4.6,
+						"kcal": 55
+					}
+				},
+				{
+					"id": 1044,
+					"name": "Aromat migdałowy",
+					"status": "public",
+					"type": "indeterminate",
+					"categories": [
+						"spices"
+					],
+					"protein": 0,
+					"carbs": 0,
+					"fat": 0,
+					"kcal": 0,
+					"measure": "grams",
+					"gramsPerMeasure": null,
+					"additionalData": {},
+					"filterBy": "Aromat migdałowy (ID: 1044)",
+					"cloneId": "cloneId-1044-475q",
+					"amount": 2,
+					"calculatedMacro": {
+						"protein": 0,
+						"carbs": 0,
+						"fat": 0,
+						"kcal": 0
+					}
+				},
+				{
+					"id": 1045,
+					"name": "Substancja słodząca",
+					"status": "public",
+					"type": "indeterminate",
+					"categories": [
+						"spices"
+					],
+					"protein": 0,
+					"carbs": 0,
+					"fat": 0,
+					"kcal": 0,
+					"measure": "atTheDiscretion",
+					"gramsPerMeasure": 1,
+					"additionalData": {
+						"editedAt": [
+							{
+								"date": "2022-09-29T13:04:15.957Z",
+								"userId": 2767
+							},
+							{
+								"date": "2022-09-29T13:27:20.999Z",
+								"userId": 2767
+							},
+							{
+								"date": "2022-10-04T08:20:40.121Z",
+								"userId": 3185
+							},
+							{
+								"date": "2022-10-04T08:25:33.863Z",
+								"userId": 3185
+							}
+						]
+					},
+					"filterBy": "Substancja słodząca (ID: 1045)",
+					"cloneId": "cloneId-1045-33lp",
+					"amount": null,
+					"calculatedMacro": {
+						"protein": 0,
+						"carbs": 0,
+						"fat": 0,
+						"kcal": 0
+					}
+				},
+				{
+					"id": 1036,
+					"name": "Sól",
+					"status": "public",
+					"type": "indeterminate",
+					"categories": [
+						"spices"
+					],
+					"protein": 0,
+					"carbs": 0,
+					"fat": 0,
+					"kcal": 0,
+					"measure": "pinch",
+					"gramsPerMeasure": 0,
+					"additionalData": {
+						"editedAt": [
+							{
+								"date": "2022-09-09T15:16:59.426Z",
+								"userId": 48
+							},
+							{
+								"date": "2022-09-09T15:20:41.678Z",
+								"userId": 48
+							},
+							{
+								"date": "2022-09-09T15:21:26.449Z",
+								"userId": 48
+							},
+							{
+								"date": "2022-09-09T15:21:34.305Z",
+								"userId": 48
+							}
+						]
+					},
+					"filterBy": "Sól (ID: 1036)",
+					"cloneId": "cloneId-1036-2789",
+					"amount": null,
+					"calculatedMacro": {
+						"protein": 0,
+						"carbs": 0,
+						"fat": 0,
+						"kcal": 0
+					}
+				}
+			],
+			"recipe": [
+				"Żelatynę zalej niewielka ilością zimnej wody i odstaw do napęcznienia. Rozpuść ją w kąpieli wodnej lub w mikrofali. Dzięki temu nie będzie grudek.",
+				"Rozpuszczoną żelatynę dodaj do twarogu i zblenduj wraz masłem orzechowym na jednolity krem. Dodaj aromat i substancję słodzącą.",
+				"Serową masę przełóż do naczynia.",
+				"Śmietankę podrzej, wrzuć do niej czekoladę i zamieszaj całość do powstania jednolitej konsystencji. Dodaj orzeszki ziemne, słodzik oraz sól.",
+				"Powstałą polewę z orzeszkami wylej na masę serową i włóż całość do lodówki na kilka godzin lub całą noc."
+			],
+			"tips": [],
+			"defaultProtein": 29.1,
+			"defaultCarbs": 16,
+			"defaultFat": 24,
+			"defaultKcal": 388,
+			"productsIds": [
+				51,
+				39,
+				17,
+				554,
+				36,
+				18,
+				1044,
+				1045,
+				1036
+			],
+			"productsCategories": [
+				"lactose",
+				"dairy",
+				"recreational",
+				"spices",
+				"nutbutters",
+				"nuts",
+				"complexcarbohydrates"
+			],
+			"createdAt": "2022-10-12T13:26:33.000Z",
+			"userId": 3184,
+			"additionalData": {
+				"editedAt": [
+					{
+						"date": "2022-10-12T12:21:24.921Z",
+						"userId": 85
+					},
+					{
+						"date": "2022-10-12T12:24:30.858Z",
+						"userId": 85
+					},
+					{
+						"date": "2022-10-15T13:37:12.889Z",
+						"userId": 85
+					}
+				]
+			}
+		}
+	]
+}

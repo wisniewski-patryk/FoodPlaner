@@ -11,4 +11,7 @@
   <ItemGroup>
     <Folder Include="Views/FoodPlaner/" />
   </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Azure.Storage.Blobs" Version="12.23.0" />
+  </ItemGroup>
 </Project>

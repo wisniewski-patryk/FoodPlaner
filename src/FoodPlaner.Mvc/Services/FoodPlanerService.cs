@@ -16,6 +16,7 @@ public class FoodPlanerService(ILogger<FoodPlanerService> logger)
 
 		var files = Directory.GetFiles("data");
 		var meals = new List<Meal>();
+
 		foreach(var file in files)
 		{
 			logger.LogInformation(file);

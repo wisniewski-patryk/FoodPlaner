@@ -53,7 +53,7 @@ jobs:
             ${{ runner.os }}-nuget-
 
       - name: Build with dotnet
-        run: dotnet build --configuration Release --project src/FoodPlaner.Mvc/FoodPlaner.Mvc.csproj
+        run: dotnet build src/FoodPlaner.Mvc/FoodPlaner.Mvc.csproj --configuration Release 
 
       - name: dotnet publish
         run: dotnet publish -c Release -o ${{env.DOTNET_ROOT}}/myapp

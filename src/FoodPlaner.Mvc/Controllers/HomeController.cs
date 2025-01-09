@@ -10,7 +10,7 @@ public class HomeController(ILogger<HomeController> logger) : Controller
 
     public IActionResult Index()
     {
-        return View();
+        return RedirectToAction("Index", "FoodPlaner");
     }
 
     public IActionResult Privacy()

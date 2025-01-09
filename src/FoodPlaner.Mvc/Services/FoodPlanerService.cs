@@ -19,7 +19,6 @@ public class FoodPlanerService(ILogger<FoodPlanerService> logger)
 
 		foreach(var file in files)
 		{
-			logger.LogInformation(file);
 			var mealJson = File.ReadAllText(file);
 			var mealModel = JsonSerializer.Deserialize<MealsModel>(mealJson, options);
 			var meal = mealModel?.Meals.FirstOrDefault();

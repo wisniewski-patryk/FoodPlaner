@@ -4,8 +4,46 @@
     ViewData["Title"] = "Food Planer";
 }
 
-@foreach(var meal in @Model.Meals)
-{
-    <div>@meal.Name</div>
-}
+<ul>
+    @foreach(var meal in @Model.Meals)
+    {
+        <li class="m-2">
+            <div class="accordion" id="accordionMeal">
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#@meal.MealId" aria-expanded="false" aria-controls="@meal.MealId">
+                            @meal.Name
+                        </button>
+                    </h2>
+                    <div id="@meal.MealId" class="accordion-collapse collapse" data-bs-parent="#accordionMeal">
+                        <div class="accordion-body">
+                            <img width="300" src="@meal.Cover.ThumbUrl"/>
+                            <h4>Ingridients</h4>
+                            <ul>
+                                @foreach(var ingridient in @meal.Products)
+                                {
+                                    <li>@ingridient.Name - @ingridient.Amount @ingridient.Measure</li>
+                                }
+                            </ul>
+                            <h4>Recipe</h4>
+                            <ul>
+                                @foreach(var recipe in @meal.Recipe)
+                                {
+                                    <li>@recipe</li>
+                                }
+                            </ul>
+                            <h4>Tips</h4>
+                            <ul>
+                                @foreach(var tip in @meal.Tips)
+                                {
+                                    <li>@tip</li>
+                                }
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </li>
+    }
+</ul>
 

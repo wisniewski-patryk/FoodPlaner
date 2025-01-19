@@ -1,10 +1,11 @@
+using FoodPlaner.Domain.Ports;
 using FoodPlaner.Mvc.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
-builder.Services.AddTransient<FoodPlanerService>();
+builder.Services.AddTransient<IMealDataService, FoodPlanerService>();
 
 var app = builder.Build();
 

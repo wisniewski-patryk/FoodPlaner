@@ -1,9 +1,10 @@
-using FoodPlaner.Mvc.Models;
+using FoodPlaner.Domain.Models;
+using FoodPlaner.Domain.Ports;
 using System.Text.Json;
 
 namespace FoodPlaner.Mvc.Services;
 
-public class FoodPlanerService(ILogger<FoodPlanerService> logger)
+public class FoodPlanerService(ILogger<FoodPlanerService> logger) : IMealDataService
 {
 	private readonly ILogger<FoodPlanerService> logger = logger;
 
